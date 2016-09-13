@@ -17,15 +17,22 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
+    /*
     UIImageView * pic = [[UIImageView alloc]initWithFrame:CGRectMake(Screen_w/2-50, Screen_h/2-50, 100, 100)];
     [pic setImage:[UIImage imageNamed:@"people"]];
     [self.view addSubview:pic];
+    */
+    UILabel * label1 = [[UILabel alloc]initWithFrame:CGRectMake(Screen_w/2-100, Screen_h/2-120, 200, 200)];
+    label1.text = @"哈哈哈哈哈哈哈哈哈哈";
+    label1.font = [UIFont systemFontOfSize:18];
+    label1.textColor = [UIColor blackColor];
+    [self.view addSubview:label1];
     
-    UILabel * word = [[UILabel alloc]initWithFrame:CGRectMake(Screen_w/2-50, Screen_h/2-200, 200, 200)];
-    word.text = @"爸爸好！";
-    word.font = [UIFont systemFontOfSize:25];
-    word.textColor = [UIColor blackColor];
-    [self.view addSubview:word];
+    UILabel * label2 = [[UILabel alloc]initWithFrame:CGRectMake(Screen_w/2-60, Screen_h/2-150, 400, 200)];
+    label2.text = @"爸爸好！";
+    label2.font = [UIFont systemFontOfSize:25];
+    label2.textColor = [UIColor blackColor];
+    [self.view addSubview:label2];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -35,3 +42,15 @@
 }
 
 @end
+
+
+
+
+
+
+
+
+
+
+
+
