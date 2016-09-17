@@ -38,7 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		282671F61D86D378004BACC1 /* people.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = people.png; path = ../../../Desktop/people.png; sourceTree = "<group>"; };
+		282671F61D86D378004BACC1 /* people.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = people.png; path = /Users/sunyi/Documents/try/try/../../../Desktop/people.png; sourceTree = "<absolute>"; };
 		282671F81D86D597004BACC1 /* people.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = people.png; path = ../../picture/people.png; sourceTree = "<group>"; };
 		282671FA1D86E27C004BACC1 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../../picture/Icon.png; sourceTree = "<group>"; };
 		28E339591D86CBA1003B45D7 /* try.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = try.app; sourceTree = BUILT_PRODUCTS_DIR; };
